@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- TODO (3) Update these values to be values from resource files and not hard coded -->
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_bass_default"
+        android:key="@string/"
+        android:summaryOff="Hidden"
+        android:summaryOn="Shown"
+        android:title="Show Bass" />
+
+</PreferenceScreen>
